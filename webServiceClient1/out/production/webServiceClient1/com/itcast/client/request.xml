@@ -1,0 +1,11 @@
+<soapenv:Envelope
+        xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+        xmlns:q0="http://dao.itcast.com/"
+        xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <soapenv:Body>
+    <q0:findUserByid>
+      <arg0>1</arg0>
+    </q0:findUserByid>
+  </soapenv:Body>
+</soapenv:Envelope>
